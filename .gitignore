@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# FastAPI / Uvicorn
+*.log
+
+# Data and vector store
+Data_layer/processed_chunks/
+Data_layer/vector_store/
+Data_layer/raw_data/
+
+# IDE/workspace files
+.vscode/
